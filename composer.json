@@ -1,0 +1,24 @@
+{
+    "name": "workbench/surfedge-event-tracking",
+    "type": "flarum-extension",
+    "description": "Event Tracking for Google Analytics.",
+    "keywords": ["header"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.6"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Event Tracking",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#ffffff",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        }
+    }
+}
